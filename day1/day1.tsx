@@ -33,7 +33,6 @@ function solvePart2(left: Number[], right: Number[]): number {
     return result;
 }
 
-// Solve and print the results
 const part1Result = solvePart1(left, right);
 console.log(`Part 1: ${part1Result}`);
 
