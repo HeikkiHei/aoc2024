@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "daily": "cd $INIT_CWD && pwd && deno run --allow-read main.tsx"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

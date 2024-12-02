@@ -1,7 +1,9 @@
-import * as fs from 'fs';
+import { data } from './data.ts';
+import { example } from './example.ts';
 
-// Read input from file
-const input = fs.readFileSync('day1_input.txt', 'utf-8')
+
+// replace data with example to run the example
+const input = data
     .trim()
     .split('\n')
     .map(line => line
