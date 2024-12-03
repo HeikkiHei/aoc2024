@@ -1,5 +1,5 @@
-import { data } from './data.ts';
-import { example } from './example.ts';
+const data = Deno.readTextFileSync('data.txt');
+const example = Deno.readTextFileSync('example.txt');
 
 
 // replace data with example to run the example
