@@ -5,9 +5,6 @@
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
   },
-  "compilerOptions": {
-    "moduleDetection": "force"
-  },
   "unstable": [
     "sloppy-imports"
   ]
